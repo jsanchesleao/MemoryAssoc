@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/1999/xhtml">
+<html>
+	<head>
+		<title>Jogo da Mem&oacute;ria</title>
+		<link rel="stylesheet" href="./memoria.css" >
+		<script type="text/javascript" src="./memoria.js"></script>
+		<script type="text/javascript">
+			function startup(){
+				var div = document.getElementById("jogo");
+				var board = new Board(4, 4);
+				board.draw(div);
+			}
+		</script>
+	</head>
+	<body onload="startup()">
+		<div id="jogo"></div>
+	</body>
+</html>

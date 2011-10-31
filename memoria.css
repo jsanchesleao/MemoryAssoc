@@ -1,0 +1,25 @@
+.boardgame td{
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: xx-large;
+}
+
+.boardgame td img{
+	width: 90px;
+	height: 90px;
+}
+
+img{
+	width: 90px;
+	height: 90px;
+}
+
+.flipped{
+	/*background-color: #55FF88;*/
+}
+
+.unflipped{
+	/*background-color: #FF5588;*/
+}
